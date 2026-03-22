@@ -9,8 +9,6 @@
 
 PVC Autoscaler is an open-source project aimed at providing autoscaling functionality to Persistent Volume Claims (PVCs) in Kubernetes environments. It allows you to automatically scale your PVCs based on your workloads and the metrics collected.
 
-Please note that PVC Autoscaler is currently in a heavy development phase. As such, it's not recommended for production usage at this point.
-
 ## Motivation
 
 The motivation behind the PVC Autoscaler project is to provide developers with an easy and efficient way of managing storage resources within their Kubernetes clusters: sometimes is difficult to estimate how much storage an application needs. With the PVC Autoscaler, there's no need to manually adjust the size of your PVCs as your storage needs change. The Autoscaler handles this for you, freeing you up to focus on other areas of your development work.
@@ -21,7 +19,7 @@ The motivation behind the PVC Autoscaler project is to provide developers with a
 
 ## Limitations
 
-Currently it only supports Prometheus for collecting metrics
+This project is **intended for educational purposes only***. It is not intended to be used in production environments.
 
 ## Requirements
 
