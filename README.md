@@ -96,10 +96,6 @@ Then setup `metadata.annotations` this way:
 * set how much to increase via `metadata.annotations.pvc-autoscaler.lorenzophys.io/increase` (default 20%)
 * to avoid infinite scaling you can set a maximum size for your volume via `metadata.annotations.pvc-autoscaler.lorenzophys.io/ceiling` (default: max size set by the volume provider)
 
-## Contributions
-
-Contributions to PVC Autoscaler are more than welcome! Whether you want to help me improve the code, add new features, fix bugs, or improve our documentation, I would be glad to receive your pull requests and issues.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
